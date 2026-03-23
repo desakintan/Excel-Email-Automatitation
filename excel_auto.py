@@ -11,8 +11,8 @@ excel = win32.Dispatch("Excel.Application")
 excel.Visible = False  # True kalau mau lihat prosesnya
 excel.DisplayAlerts = False
 
-file_path = r"C:\Document\Desak\DailyReport\DashboardReport.xlsx"
-output_folder = r"C:\Document\Desak\DailyReport"
+file_path = r"C:\Document\pythonCode\Automation-Email-Excel\excel_auto.py"
+output_folder = r"C:\Document\pythonCode\Automation-Email-Excel"
 today = datetime.now().strftime("%d-%m-%Y")  
 
 # === EXPORT EXCEL KE PDF ===
