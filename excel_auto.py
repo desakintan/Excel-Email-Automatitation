@@ -13,6 +13,8 @@ excel.DisplayAlerts = False
 
 file_path = r"C:\Document\pythonCode\Automation-Email-Excel\excel_auto.py"
 output_folder = r"C:\Document\pythonCode\Automation-Email-Excel"
+
+# Format tanggal untuk nama file
 today = datetime.now().strftime("%d-%m-%Y")  
 
 # === EXPORT EXCEL KE PDF ===
